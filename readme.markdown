@@ -2,7 +2,7 @@
 
 Prototyping on mobile devices?
 
-Saves you typing in local tunnel url, using qr codes.
+Saves you typing in [localtunnel](http://localtunnel.me/) url, using qr codes.
 
 # usage
 
