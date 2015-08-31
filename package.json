@@ -24,7 +24,7 @@
     "name": "James Kyburz",
     "email": "james.kyburz@gmail.com"
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "bin": "index.js",
   "scripts": {
     "publish-generate": "standard && browserify generate.js| indexhtmlify  | curl -sT- https://htmlb.in",
