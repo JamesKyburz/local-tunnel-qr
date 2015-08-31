@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+#!/usr/bin/env bash
+command -v lt >/dev/null 2>&1 || { echo "please install localtunnel (npm i localtunnel -g)"; exit; }
+
+node -e """
+  var http = require('http')
+  var server = http.createServer()
+  server.on('request', function (q, r) {
+    r.end('hello from localhost')
+  })
+  server.listen(6123)
+""" &
+
+lt --port 6123 | node index

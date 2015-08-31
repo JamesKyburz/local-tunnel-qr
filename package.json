@@ -1,0 +1,30 @@
+{
+  "name": "local-tunnel-qr",
+  "description": "local tunnel to qr codes",
+  "keywords": ["localtunnel", "qr", "prototyping"],
+  "dependencies": {
+    "browserify": "^11.0.1",
+    "getusermedia": "^1.3.5",
+    "indexhtmlify": "^1.2.0",
+    "jsqrcode": "0.0.6",
+    "open": "0.0.5",
+    "qr-element": "0.0.0",
+    "raf": "^3.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jameskyburz/local-tunnel-qr.git"
+  },
+  "author": {
+    "name": "James Kyburz",
+    "email": "james.kyburz@gmail.com"
+  },
+  "version": "1.0.0",
+  "bin": "index.js",
+  "scripts": {
+    "publish-generate": "browserify generate.js| indexhtmlify  | curl -sT- https://htmlb.in",
+    "publish-browse": "browserify browse.js| indexhtmlify  | curl -sT- https://htmlb.in",
+    "test": "./test"
+  },
+  "license": "MIT"
+}
