@@ -8,10 +8,12 @@ canvas.height = 256
 
 var ctx = canvas.getContext('2d')
 
+snappy()
+
 getUserMedia({video: true}, capture)
 
 function capture (err, stream) {
-  if (err) return snappy()
+  if (err) return
 
   var video = document.body.appendChild(document.createElement('video'))
   video.src = URL.createObjectURL(stream)
