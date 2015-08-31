@@ -1,7 +1,11 @@
 {
   "name": "local-tunnel-qr",
   "description": "local tunnel to qr codes",
-  "keywords": ["localtunnel", "qr", "prototyping"],
+  "keywords": [
+    "localtunnel",
+    "qr",
+    "prototyping"
+  ],
   "dependencies": {
     "browserify": "^11.0.1",
     "getusermedia": "^1.3.5",
@@ -19,7 +23,7 @@
     "name": "James Kyburz",
     "email": "james.kyburz@gmail.com"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "bin": "index.js",
   "scripts": {
     "publish-generate": "browserify generate.js| indexhtmlify  | curl -sT- https://htmlb.in",
