@@ -16,7 +16,9 @@ or
 
 Use some qr reader software on the device
 
-```
+# test
+
+```bash
 npm test
 ```
 
