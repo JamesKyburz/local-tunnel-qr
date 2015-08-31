@@ -16,15 +16,15 @@ function capture (err, stream) {
   if (err) return
 
   var video = document.body.appendChild(document.createElement('video'))
-  video.src = URL.createObjectURL(stream)
+  video.src = window.URL.createObjectURL(stream)
   video.play()
   captureVideo()
-  function captureVode () {
+  function captureVideo () {
     ctx.drawImage(video, 0, 0, 256, 256)
     try {
       var url = jsqrcode(canvas).decode(canvas)
-      location.href = url
-    } catch(e) {raf(draw)}
+      window.location.href = url
+    } catch(e) {raf(captureVideo)}
   }
 }
 
@@ -37,7 +37,7 @@ function snappy () {
   input.addEventListener('change', captureImage)
 
   function captureImage () {
-    var reader = new FileReader()
+    var reader = new window.FileReader()
     var file = this.files[0]
     reader.addEventListener('loadend', loaded)
     reader.readAsDataURL(file)
@@ -51,7 +51,7 @@ function snappy () {
         ctx.drawImage(image, 0, 0, 256, 256)
         try {
           var url = jsqrcode(canvas).decode(canvas)
-          location.href = url
+          window.location.href = url
         } catch(e) {}
       }
     }

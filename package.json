@@ -13,7 +13,8 @@
     "jsqrcode": "0.0.6",
     "open": "0.0.5",
     "qr-element": "0.0.0",
-    "raf": "^3.1.0"
+    "raf": "^3.1.0",
+    "standard": "^5.1.1"
   },
   "repository": {
     "type": "git",
@@ -26,8 +27,8 @@
   "version": "1.0.1",
   "bin": "index.js",
   "scripts": {
-    "publish-generate": "browserify generate.js| indexhtmlify  | curl -sT- https://htmlb.in",
-    "publish-browse": "browserify browse.js| indexhtmlify  | curl -sT- https://htmlb.in",
+    "publish-generate": "standard && browserify generate.js| indexhtmlify  | curl -sT- https://htmlb.in",
+    "publish-browse": "standard && browserify browse.js| indexhtmlify  | curl -sT- https://htmlb.in",
     "test": "./test"
   },
   "license": "MIT"

@@ -6,5 +6,5 @@ process.stdin.on('data', showQr)
 
 function showQr (data) {
   var tunnelUrl = data.toString().match(/(http.*)/)[1]
-  open('https://5eda1947231db5bfc1b274e2a8f9040e538b075b.htmlb.in/#/' + tunnelUrl)
+  open('https://45fc0fdf85dc010142a22c9fd401dd5500b3b798.htmlb.in/#/' + tunnelUrl)
 }

@@ -10,7 +10,7 @@ Saves you typing in local tunnel url, using qr codes.
 lt --port ? | local-tunnel-qr
 ```
 
-Either save a [this](https://a6b849be37349ff17a6f57b51fc15ca12e072b45.htmlb.in) bookmark.
+Either save a [this](https://a583b406fb2e1445881b948d9abb05b76f95600d.htmlb.in) bookmark.
 
 or
 
