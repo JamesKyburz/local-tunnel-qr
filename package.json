@@ -7,7 +7,7 @@
     "prototyping"
   ],
   "dependencies": {
-    "browserify": "11.2.0",
+    "browserify": "12.0.0",
     "getusermedia": "1.3.5",
     "indexhtmlify": "1.2.0",
     "jsqrcode": "0.0.6",
