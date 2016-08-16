@@ -11,7 +11,7 @@
     "jsqrcode": "0.0.6",
     "open": "0.0.5",
     "qr-element": "0.0.0",
-    "raf": "3.2.0"
+    "raf": "3.3.0"
   },
   "devDependencies": {
     "browserify": "13.1.0",
