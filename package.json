@@ -7,7 +7,7 @@
     "prototyping"
   ],
   "dependencies": {
-    "getusermedia": "2.0.0",
+    "getusermedia": "2.0.1",
     "jsqrcode": "0.0.6",
     "open": "0.0.5",
     "qr-element": "0.0.0",
