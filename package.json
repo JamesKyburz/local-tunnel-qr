@@ -8,7 +8,7 @@
   ],
   "dependencies": {
     "getusermedia": "2.0.0",
-    "jsqrcode": "0.0.6",
+    "jsqrcode": "0.0.7",
     "open": "0.0.5",
     "qr-element": "0.0.0",
     "raf": "3.3.0"
