@@ -1,5 +1,7 @@
 # local-tunnel-qr
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/JamesKyburz/local-tunnel-qr.svg)](https://greenkeeper.io/)
+
 Prototyping on mobile devices?
 
 Saves you typing in [localtunnel](http://localtunnel.me/) url, using qr codes.
